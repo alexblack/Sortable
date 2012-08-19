@@ -1,11 +1,14 @@
+ENVIRONMENT
+===========
+I'm using scalac 2.9.2 running on Mac OS X Version 10.6.8. You'll need a compatible version of scala in
+order to build and run the program.
+
 BUILDING
 ========
-
 Type ./build.sh in /Sortable
 
 TO RUN
 ======
-
 Type ./go.sh path_to_product_file path_to_listing_file path_to_output_file
 
 The directory that will contain the result file must exist.
