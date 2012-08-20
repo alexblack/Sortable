@@ -19,8 +19,8 @@ object ProductPropertyTree {
   def getProductProperty(depth: Int, product: Product) : TokenizableProperty = {
     depth match {
       case 1 => return new TokenizableProperty(product.manufacturer)
-      case 2 => return new TokenizableProperty(product.model)
-      case 3 => return new TokenizableProperty(product.family)
+      case 2 => return new TokenizableProperty(product.family)
+      case 3 => return new TokenizableProperty(product.model)
       case 4 => return new TokenizableProperty("")
     }
   }
